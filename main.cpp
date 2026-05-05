@@ -138,8 +138,8 @@ void printPath(pair<int,int> exitcell,
 
         if (newRow >= 0 && newRow < maze.size() && newCol >= 0 && newCol < maze[0].size()) {
             if (!visited[newRow][newCol] && maze[newRow][newCol] == 0) {
-                parent_r[newRow][newCol] = newRow;
-                parent_c[newRow][newCol] = newCol;
+                parent_r[newRow][newCol] = row;
+                parent_c[newRow][newCol] = col;
 
                 if (dfs(newRow, newCol, maze, visited, parent_r, parent_c, exitRow, exitCol)) {
                     return true;

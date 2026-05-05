@@ -146,8 +146,8 @@ void printPath(pair<int,int> exitcell,
                 }
             }
         }
-        return false;
     }
+    return false;
 
 
 }

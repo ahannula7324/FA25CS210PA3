@@ -25,3 +25,12 @@ Attempts: I tried restarting CLion, and explored changes inn my settings and nam
 
 Resolution: I realized I needed a CMakeLists.txt file to allow my main.cpp file to run correctly. After fixing this problem I was finally able to run my program and get outputs.
 
+### Devlog Entry 4
+Date: 5/5/26
+
+Issue: When running my code, I repeatedly kept getting "No path exists" no matter the input.
+
+Attempts: Everytime I would run it, the same outcome would happen, so I realized this was because the "return false;" statement was inside the loop, when it should be out of it.
+
+Resolution: After moving the statement outside the loop, everything ran properly and I got correct outcomes.
+

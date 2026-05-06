@@ -42,3 +42,12 @@ Issue: The DFS function kept revisiting the same cells and making unnecessary cy
 Attempts: I initially forgot to check the step !visited[newRow][newCol] before the recursion in my function. This caused errors and would not run properly.
 
 Resolution: I added an if statement to check first, so it doesn't do unnecessary cycles and visit the same cells. 
+
+### Devlog Entry 6
+Date: 5/5/26
+
+Issue: Throughout coding, when I tested different dimensions of the maze I realized it would act differently even when the code is correct. 
+
+Attempts: Several times when I would run the code, it would return "No path exists" even though the DFS function worked correctly. When I would test another dimension, it would work properly.
+
+Resolution: After testing other dimensions, I realized that sometimes there genuinely no path that exists and my code is still correct.

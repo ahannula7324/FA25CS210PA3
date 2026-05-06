@@ -129,8 +129,6 @@ void printPath(pair<int,int> exitcell,
         return true;
     }
 
-    int dr[4] = {-1, 0, 1, 0};
-    int dc[4] = {0, 1, 0, -1};
 
     for (int i = 0; i < 4; i++) {
         int newRow = row + dr[i];

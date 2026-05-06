@@ -34,3 +34,11 @@ Attempts: Everytime I would run it, the same outcome would happen, so I realized
 
 Resolution: After moving the statement outside the loop, everything ran properly and I got correct outcomes.
 
+### Devlog Entry 5
+Date: 5/5/26
+
+Issue: The DFS function kept revisiting the same cells and making unnecessary cycles.
+
+Attempts: I initially forgot to check the step !visited[newRow][newCol] before the recursion in my function. This caused errors and would not run properly.
+
+Resolution: I added an if statement to check first, so it doesn't do unnecessary cycles and visit the same cells. 
